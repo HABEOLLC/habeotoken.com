@@ -3,144 +3,144 @@
 <title>HABEO Library </title>
 <a href="index.html"> Home</a>
 <xmp theme="cerulean" style="display:none;">
-    # HABEO - How to acquire
-    <br /><br />
-    ## Experienced users (users that have swapped multiple tokens before)
+# HABEO - How to acquire
+<br /><br />
+## Experienced users (users that have swapped multiple tokens before)
 
-    <BR />
-    ### Early distribution
+<BR />
+### Early distribution
 
-    Early distribution is self hosted and very simple to use.
-    From your wallet, simply send the right amount of BNB to HABEO’s address and the contract will send the right amount
-    of tokens back to your wallet, once the transacion is confirmed.
-    One important call out for the early distribution is to let the wallet freely calculate the gas so the transaction
-    is not failed because of it not being enough.
-    If the transaction does fail because of low gas, try again offering a higher gas limit.
+Early distribution is self hosted and very simple to use.
+From your wallet, simply send the right amount of BNB to HABEO’s address and the contract will send the right amount
+of tokens back to your wallet, once the transacion is confirmed.
+One important call out for the early distribution is to let the wallet freely calculate the gas so the transaction
+is not failed because of it not being enough.
+If the transaction does fail because of low gas, try again offering a higher gas limit.
 
-    <BR />
-    ### Pancakeswap swaps
+<BR />
+### Pancakeswap swaps
 
-    Swaps for HABEO are like any BEP-20 tokens swap.
-    The contract number is **0xXXXXXX**.
-    Because of the taxes, you should leave the slippage percentage high. The usual recommended value is 12% since most
-    tokens have 10% taxes. As the tax to acquire HABEO is lower (2%) a smaller slippage of around 4% will likely work
-    but leaving it at 12% should not have any negative impact and will make sure the transaction goes through.
-    When swapping out of HABEO, the tax varies depending on the percentage of the wallet being swapped so, slippage will
-    need to be tweaked accordingly.
+Swaps for HABEO are like any BEP-20 tokens swap.
+The contract number is **0xXXXXXX**.
+Because of the taxes, you should leave the slippage percentage high. The usual recommended value is 12% since most
+tokens have 10% taxes. As the tax to acquire HABEO is lower (2%) a smaller slippage of around 4% will likely work
+but leaving it at 12% should not have any negative impact and will make sure the transaction goes through.
+When swapping out of HABEO, the tax varies depending on the percentage of the wallet being swapped so, slippage will
+need to be tweaked accordingly.
 
-    <br /><br />
-    ## Intermediate users (users that have wallets but have not swapped tokens before)
+<br /><br />
+## Intermediate users (users that have wallets but have not swapped tokens before)
 
-    <BR />
-    ### Early distribution
+<BR />
+### Early distribution
 
-    Early distribution is self hosted so, acquiring HABEO during this period is as easy as sending BNB to any wallet.
-    HABEO's contract is designed to accept any of a set of predefined amounts of BNB hardcoded into it.
-    The protocol is listening to any wallets that send those exact amounts of BNB to the contract address and then,
-    after the transaction has been verified by the Binance Smart Chain network, the contract assigns the corresponding
-    amount of HABEO to the wallet sending the BNB.
-    As wallets periodically request balance updates to the contracts that host the tokens, once the tokens have been
-    assigned, it's a matter of waiting until the next balance refresh for the new balance to be shown.
-    As each wallet has its own schedule request updates, timing may vary but most do it quite often (every few
-    seconds/minutes).
-    Some wallets require that you enable the displaying of the new token amount through their settings (TrustWallet is
-    an example of this).
-    Some others, might need that you add the token with a manual process (Metamask is an example of this).
-    If you are working with Metamask, tap the _"Add Token"_ button and enter the contract addess (**0xXXXXXX**) in the
-    _"Token Contract Address"_ box.
-    Tap on _"Next"_ after that and the amount of tokens will display on your wallet.
+Early distribution is self hosted so, acquiring HABEO during this period is as easy as sending BNB to any wallet.
+HABEO's contract is designed to accept any of a set of predefined amounts of BNB hardcoded into it.
+The protocol is listening to any wallets that send those exact amounts of BNB to the contract address and then,
+after the transaction has been verified by the Binance Smart Chain network, the contract assigns the corresponding
+amount of HABEO to the wallet sending the BNB.
+As wallets periodically request balance updates to the contracts that host the tokens, once the tokens have been
+assigned, it's a matter of waiting until the next balance refresh for the new balance to be shown.
+As each wallet has its own schedule request updates, timing may vary but most do it quite often (every few
+seconds/minutes).
+Some wallets require that you enable the displaying of the new token amount through their settings (TrustWallet is
+an example of this).
+Some others, might need that you add the token with a manual process (Metamask is an example of this).
+If you are working with Metamask, tap the _"Add Token"_ button and enter the contract addess (**0xXXXXXX**) in the
+_"Token Contract Address"_ box.
+Tap on _"Next"_ after that and the amount of tokens will display on your wallet.
 
-    <BR />
-    ### Pancakeswap swaps
+<BR />
+### Pancakeswap swaps
 
-    Pancakeswap is what's defined as a _"DeFi"_ exchange.
-    These exchanges have multiple capabilities but the main purpose they serve is to enable the exchange of coins/tokens
-    for one another, just like any other exchange.
-    The main difference with the way regular exchanges work is that DeFi exchanges don't need an agreement between two
-    parties to do the exchange.
-    They work with a format called _"Liquidity Pools" (LPs for short)_ that eliminates that need. These LPs are
-    basically a group of large quantities of tokens/coins held by the exchange in a proportional pair format.
-    For instance, once the early distribution is done, Pancakeswap will host the pair BNB/HABEO.
-    For the sake of easy understanding, let's use small numbers for this example.
-    Let's say that the BNB/HABEO pair has 10 BNB and 1000 HABEO. If you wanted to exchange BNB for HABEO, for every BNB
-    that you bring to the transaction you would be able to swap it for 100 HABEO. To be as close to exact as possible
-    with our example, we must clarify that this is not an exact number because the swap in this example would represent
-    a large amount of tokens in the pool but, for the regular use of the exchange, this example is pretty close to what
-    would happen.
-    If you were to swap HABEO for BNB, you would have to provide 100 HABEO for every BNB that you wish to acquire.
-    After each transaction, the proportion is changed since the LP will now have different amounts on each side of the
-    pair so, the value and proportion keep changing with each swap, setting the new price.
-    In order to interact with Pancakeswap, you will have to navigate to https://pancakeswap.finance/. Once there, the
-    website will offer you to _"Connect your wallet"_ which means that Pancakeswap will be able to read the wallet's
-    balances.
-    After the wallet is connected, click on the _"Trade"_ option on the top menu which will bring you to the Exchange
-    page.
-    This is the page that allows to exchange one coin/token for another.
-    To acquire HABEO, in the _"from"_ section, select BNB and enter the amount of BNB you are looking to exchange. Next,
-    you need to select what token you are looking to obtain in the _"to"_ section.
-    As the names of the tokens can be reused by other contraxcts, **ALWAYS** use the contract address to identify the
-    right token.
-    You will see a list of tokens and a space to enter a contract address, paste HABEO's contract address there.
-    One more thing to consider is what is called _"Slippage tolerance"_. As we described above, if a transaction affects
-    the amounts of either of the tokens in the LP too much, the proportion change will affect the amount of tokens that
-    can get acquired with your offered amount.
-    To prevent the transaction from cancelling and costing you gas in vain, it is usually a good idea with BEP-20 tokens
-    to set the slippage tolerance to a value of around 12%. There's a settings icon that you can tap on to set this
-    value.
+Pancakeswap is what's defined as a _"DeFi"_ exchange.
+These exchanges have multiple capabilities but the main purpose they serve is to enable the exchange of coins/tokens
+for one another, just like any other exchange.
+The main difference with the way regular exchanges work is that DeFi exchanges don't need an agreement between two
+parties to do the exchange.
+They work with a format called _"Liquidity Pools" (LPs for short)_ that eliminates that need. These LPs are
+basically a group of large quantities of tokens/coins held by the exchange in a proportional pair format.
+For instance, once the early distribution is done, Pancakeswap will host the pair BNB/HABEO.
+For the sake of easy understanding, let's use small numbers for this example.
+Let's say that the BNB/HABEO pair has 10 BNB and 1000 HABEO. If you wanted to exchange BNB for HABEO, for every BNB
+that you bring to the transaction you would be able to swap it for 100 HABEO. To be as close to exact as possible
+with our example, we must clarify that this is not an exact number because the swap in this example would represent
+a large amount of tokens in the pool but, for the regular use of the exchange, this example is pretty close to what
+would happen.
+If you were to swap HABEO for BNB, you would have to provide 100 HABEO for every BNB that you wish to acquire.
+After each transaction, the proportion is changed since the LP will now have different amounts on each side of the
+pair so, the value and proportion keep changing with each swap, setting the new price.
+In order to interact with Pancakeswap, you will have to navigate to https://pancakeswap.finance/. Once there, the
+website will offer you to _"Connect your wallet"_ which means that Pancakeswap will be able to read the wallet's
+balances.
+After the wallet is connected, click on the _"Trade"_ option on the top menu which will bring you to the Exchange
+page.
+This is the page that allows to exchange one coin/token for another.
+To acquire HABEO, in the _"from"_ section, select BNB and enter the amount of BNB you are looking to exchange. Next,
+you need to select what token you are looking to obtain in the _"to"_ section.
+As the names of the tokens can be reused by other contraxcts, **ALWAYS** use the contract address to identify the
+right token.
+You will see a list of tokens and a space to enter a contract address, paste HABEO's contract address there.
+One more thing to consider is what is called _"Slippage tolerance"_. As we described above, if a transaction affects
+the amounts of either of the tokens in the LP too much, the proportion change will affect the amount of tokens that
+can get acquired with your offered amount.
+To prevent the transaction from cancelling and costing you gas in vain, it is usually a good idea with BEP-20 tokens
+to set the slippage tolerance to a value of around 12%. There's a settings icon that you can tap on to set this
+value.
 
-    <br /><br />
-    ## Inexperienced users (users that do not have wallets yet)
+<br /><br />
+## Inexperienced users (users that do not have wallets yet)
 
-    <BR />
-    ### Early distribution
+<BR />
+### Early distribution
 
-    In order to be able to swap tokens in any exchange, you need to have a crypto wallet.
-    There are different types of wallets that work with different crypto networks. Some of them can work with multiple
-    networks at once.
-    To work with BEP-20 tokens (HABEO is a BEP-20 token), you will need to use a wallet that supports this network.
-    There are a large number of wallets that you could use but for these examples we'll be talking about TrustWallet and
-    Metamask.
-    The reason we are providing examples for two wallets is because both of them have an important distinction from the
-    other.
+In order to be able to swap tokens in any exchange, you need to have a crypto wallet.
+There are different types of wallets that work with different crypto networks. Some of them can work with multiple
+networks at once.
+To work with BEP-20 tokens (HABEO is a BEP-20 token), you will need to use a wallet that supports this network.
+There are a large number of wallets that you could use but for these examples we'll be talking about TrustWallet and
+Metamask.
+The reason we are providing examples for two wallets is because both of them have an important distinction from the
+other.
 
-    <BR />
-    #### TrustWallet
-    The main differentiator for TrustWallet is that it allows to add FIAT (regular money as Dollars, Euros and such)
-    funds to the wallet that they can then be used for acquiring coins and tokens.
-    At the time of this writing, TrustWallet interacts with Simplex and Moonpay for getting FIAT currencies into the
-    wallet.
-    Both of them allow you to use Visa, Mastercard and ApplePay to fund the wallets. Some banks don't allow their issued
-    cards to be used for crypto so you might get a transaction rejected when trying it.
-    You can use trial and error or contact your bank to ask about it.
-    The main downside of TrustWallet is that it is only available for iOS and Android with no PC/Mac versions.
+<BR />
+#### TrustWallet
+The main differentiator for TrustWallet is that it allows to add FIAT (regular money as Dollars, Euros and such)
+funds to the wallet that they can then be used for acquiring coins and tokens.
+At the time of this writing, TrustWallet interacts with Simplex and Moonpay for getting FIAT currencies into the
+wallet.
+Both of them allow you to use Visa, Mastercard and ApplePay to fund the wallets. Some banks don't allow their issued
+cards to be used for crypto so you might get a transaction rejected when trying it.
+You can use trial and error or contact your bank to ask about it.
+The main downside of TrustWallet is that it is only available for iOS and Android with no PC/Mac versions.
 
-    <BR />
-    #### Metamask Wallet
-    Metamask does not allow to fund wallets. So, in order to be able to work with Metamask, you will have to receive
-    crypto into the wallet by means of a transfer from another wallet.
-    Another option (more complex) is to create another wallet in an exchange like Binance or Coinbase (there are a lot
-    of different options for exchanges), fund that new wallet with FIAT currency, acquire some form of crypto currency
-    with these funds and then, transfer these funds into the Metamask wallet.
-    If you are reading this, we understand that you are new to the crypto world so we would strongly suggest that you
-    avoid unnecessary steps at least for now.
-    The one great thing about Metamask is that it runs as a plug-in for Firefox and Chrome so you can literally use it
-    in any PC/Mac AND it also has an iOS and an Android versions.
+<BR />
+#### Metamask Wallet
+Metamask does not allow to fund wallets. So, in order to be able to work with Metamask, you will have to receive
+crypto into the wallet by means of a transfer from another wallet.
+Another option (more complex) is to create another wallet in an exchange like Binance or Coinbase (there are a lot
+of different options for exchanges), fund that new wallet with FIAT currency, acquire some form of crypto currency
+with these funds and then, transfer these funds into the Metamask wallet.
+If you are reading this, we understand that you are new to the crypto world so we would strongly suggest that you
+avoid unnecessary steps at least for now.
+The one great thing about Metamask is that it runs as a plug-in for Firefox and Chrome so you can literally use it
+in any PC/Mac AND it also has an iOS and an Android versions.
 
-    <BR />
-    So, if you want to only work with your mobile phone, we would recommend that you start with TrustWallet because if
-    covers all you need.
-    But, if you are looking to work with both PC/Mac AND mobile, we recommend that you install TrustWallet in your phone
-    and Metamask in your computer. Once that's done, fund your TrustWalelt account, acquire BNB with it and then
-    transfer the BNB to your Metamask wallet. You can then also install Metamask in your phone so you can manage your
-    wallet from both places.
-    Once the BNB is in your Metamask wallet, you can start swapping coins/tokens either from the computer or from the
-    phone.
-    There are a lot more details and options but, as a new user, you want to stick with these for a time until you
-    acquire more knowledge and experience.
+<BR />
+So, if you want to only work with your mobile phone, we would recommend that you start with TrustWallet because if
+covers all you need.
+But, if you are looking to work with both PC/Mac AND mobile, we recommend that you install TrustWallet in your phone
+and Metamask in your computer. Once that's done, fund your TrustWalelt account, acquire BNB with it and then
+transfer the BNB to your Metamask wallet. You can then also install Metamask in your phone so you can manage your
+wallet from both places.
+Once the BNB is in your Metamask wallet, you can start swapping coins/tokens either from the computer or from the
+phone.
+There are a lot more details and options but, as a new user, you want to stick with these for a time until you
+acquire more knowledge and experience.
 
-    <BR />
-    ### Pancakeswap swaps
-    Read the section for Pancakeswap Swaps for intermediate users.
+<BR />
+### Pancakeswap swaps
+Read the section for Pancakeswap Swaps for intermediate users.
 
 </xmp>
 
