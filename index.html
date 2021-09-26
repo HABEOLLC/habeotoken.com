@@ -1,0 +1,22 @@
+<script>
+    var language = window.navigator.userLanguage || window.navigator.language;
+    switch (language.substring(0,2).toLowerCase()) {
+        case ("en"):
+            window.location.href = "/en/index.html";
+            break;
+        case ("es"):
+            window.location.href = "/es/index.html";
+            break;
+        case ("pt"):
+            window.location.href = "/pt/index.html";
+            break;
+        case ("it"):
+            window.location.href = "/it/index.html";
+            break;
+        case ("fr"):
+            window.location.href = "/fr/index.html";
+            break;
+        default:
+            window.location.href = "/en/index.html";
+    }
+    </script>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<title>Biblioteca de HABEO </title>
+<a href="index.html"> Início</a>
+<xmp theme="cerulean" style="display:none;">
+# Glosario de Crypto 101 - En términos simples
+<br/><br/>
+#### Moneda criptográfica (Crypto Coin)
+
+Objeto digital generado y mantenido por una red de **_cadena de bloques (blockchain)_**.
+
+<BR/>
+#### Red de cadena de bloques (Blockchain Network)
+
+Una red descentralizada de computadoras que ejecutan un programa que las mantiene comunicadas 
+y compartiendo información entre ellas. Un dato importante que estas computadoras comparten es 
+un libro de actividad contable (libro mayor, etc.) seguro que describe todas las transacciones 
+que involucran a las monedas administradas por la red y que hayan ocurrido desde su creación.
+
+<BR/>
+#### Token criptográfico (Crypto Token)
+
+Contrariamente a la creencia popular, un token criptográfico no es lo mismo que una **moneda 
+criptográfica**. Como se describió anteriormente, una moneda es mantenida y administrada por una 
+**red blockchain**. Un token, por otro lado, no tiene su propia red. En cambio, se ejecuta sobre una 
+moneda criptográfica existente.
+El primer ejemplo ampliamente conocido de esto es la red Ethereum que permite la existencia de 
+tokens **_ERC-20_**. La red sobre la que se ejecuta HABEO es la red Binance Smart Chain (BSC para abreviar) 
+que permite la existencia de tokens **_BEP-20_**.
+Los tokens también son objetos digitales y se mantienen y controlan mediante un **_contrato inteligente_**.
+
+<BR/>
+#### Contrato inteligente (Smart Contract)
+Estos son programas informáticos cortos que se ejecutan en el entorno de la red blockchain de una moneda 
+criptográfica y son inmutables (se ejecutan para siempre sin que se puedan modificar).
+Estos contratos crean **tokens criptográficos** y otros objetos digitales y siguen un conjunto predefinido de 
+reglas para su gestión y administración.
+
+<BR/>
+#### ERC-20 y BEP-20
+Estos son estándares para la creación de **tokens criptográficos**. Básicamente, son un conjunto de reglas que deben 
+seguir todos los tokens. ERC-20 es el estándar para la red Ethereum, mientras que BEP-20 es el de la red BSC.
+Los dos son muy parecidos ya que el estándar BEP-20 se basa en un 100% en el estándar ERC-20. Sin embargo, podrían 
+comenzar a alejarse el uno del otro en el futuro.
+
+
+<BR/>
+#### Billetera (Wallet)
+La mayoría de las personas que recién comienzan con objetos criptográficos creen que las billeteras son algún tipo de 
+dispositivo físico o un programa de computadora. La verdad es que aunque las billeteras pueden ser "administradas" por 
+dispositivos físicos o programas de computadora, son simplemente una dirección. Eso es todo, una billetera es solo una 
+dirección en la **red blockchain** a la que pertenecen.
+Básicamente, hay dos componentes que forman esta dirección, un número privado y un número público.
+El número público generalmente se conoce como la "dirección" en sí misma. Esta dirección es pública y cualquiera que la sepa 
+solamente puede utilizarla para enviarle objetos digitales. Nada más.
+Por otro lado, el número privado (la otra parte de la billetera) debe mantenerse, como su nombre lo indica, privado.
+El número privado es lo que permite a los usuarios gastar o transferir sus objetos digitales.
+Algunos programas que administran billeteras no permiten a los usuarios administrar o siquiera ver sus números privados y 
+los mantienen ocultos para que solamente el programa pueda utilizarlos y solamente cuando sea necesario. Algunos otros 
+programas sí permiten a los usuarios administrar sus números privados. Ambos tienen sus beneficios que discutiremos en otro
+ momento.
+
+
+<BR/>
+#### Transferir, gastar o intercambiar objetos digitales (Transferring, spending, swapping)
+Básicamente, todas estas acciones son iguales desde una perspectiva técnica. Tanto transferir como gastar significan 
+enviar objetos de una **billetera** a otra.
+La billetera que recibe los objetos transferidos suele ser la billetera de un individuo.
+Intercambiar, por otro lado, también significa enviar un objeto a otra billetera pero, en este caso particular, la 
+billetera de destino es un **_agente de cambio_** o un **contrato inteligente**.
+
+<BR/>
+#### Agente de cambio (Exhcange)
+Un agente de intercambio es un programa (**contrato inteligente**) que permite el intercambio de algunos objetos digitales 
+por otros objetos digitales o el uso de moneda FIAT (dólares, euros, etc.) para adquirir o disponer objetos digitales.
+Al adquirir objetos digitales, el usuario utiliza monedas FIAT de una cuenta bancaria o tarjeta de crédito para depositar 
+fondos en su cuenta de cambio. Una vez que se deposita el dinero, pueden elegir entre la variedad de objetos digitales que 
+ofrece el intercambio para obtener.
+No todos los intercambios ofrecen todos los objetos digitales y algunos objetos digitales no están disponibles en todos los 
+intercambios.
+Por lo tanto, a veces es necesario que se realicen múltiples "intercambios" para que un usuario pueda adquirir un objeto digital 
+específico.
+Para la red Ethereum, algunos de estos intercambios se realizan a través de una plataforma llamada **_Uniswap_** (y otras). Para 
+la red BSC, la plataforma más común es **_PancakeSwap_**.
+
+<BR/>
+#### Uniswap y PancakeSwap
+Estas plataformas son ejemplos de lo que se llama un Creador de Mercado Automático (AMM, por sus siglas en inglés). Los AMM 
+permiten que se realice un intercambio incluso cuando no hay oferta o demanda disponibles.
+En los **agentes de intercambios** regulares (como en el mercado de valores), cada vez que alguien quiere adquirir un objeto debe 
+coincidir en tiempo y precio con una parte ofertante. Viceversa, cuando alguien quiere deshacerse de un objeto, debe coincidir 
+con alguien que quiere obtenerlo a ese precio. Una vez que las dos partes acuerdan el valor, se ejecuta la operación y los 
+objetos cambian de manos.
+Con los AMM, la necesidad de que ambas partes coincidan en valor y tiempo se reemplaza por un concepto llamado **_fondo de liquidez_** 
+que permite que estas operaciones se realicen cuando solo una de las partes está presente.
+
+
+<BR/>
+#### Fondo de liquidez (Liquidity Pool)
+Para que ocurran las operaciones mencionadas anteriormente, debe haber "algo" interesado en aceptar los objetos digitales que el 
+usuario está utilizando en el intercambio y el mismo "algo" interesado en entregar a cambio los objetos digitales que el usuario 
+desea adquirir.
+Ese “algo” se llama Fondo de Liquidez (Liquidity Pool - LP para abreviar).
+Los fondos de liquidez ofrecen "pares" de tokens / monedas para intercambiar. Por ejemplo, un LP que sirve a un par Token1 / Token2, 
+permite que Token1 se intercambie por Token2 y viceversa. Esto permite a los usuarios ofrecer una cierta cantidad de Token1 para 
+adquirir una cierta cantidad de Token2 y también al revés.
+Cuando se crean estos pares, se les proporciona una cantidad arbitraria de cada token. En ese mismo momento, el "valor" de ambos 
+tokens (en relación al otro) se determina en el LP. Dependiendo de la proporción en la que se proporcionen inicialmente los tokens, 
+su valor relacionado entre sí será diferente.
+Si el fondo se crea con 100 unidades de Token1 y 10 unidades de Token2, entonces el precio de cada Token2 sería de 10 Token1 y el 
+precio de cada Token1 sería de 0,1 Token2.
+Con cada transacción que ocurre, los usuarios agregan Token1 al fondo y toman Token2 del fondo, o viceversa.
+Estas operaciones crean desequilibrios en la proporción de los tokens utilizados para la liquidez en el fondo, lo que hace que 
+el "valor" de uno suba o baje con referencia al otro.
+Sin embargo, si un usuario está buscando adquirir Token2 pero solo quiere ofrecer a cambio Token3, la transacción no será 
+posible a menos que el LP también sirva al par Token2 / Token3.
+De esta manera, para ciertos escenarios, un usuario puede necesitar operar un par de veces antes de obtener el objeto deseado.
+Un detalle más importante que debe conocer acerca de los LP es que la liquidez la proporcionan los usuarios / contratos.
+Esto significa que un contrato o un usuario tuvo que crear el "par" proporcionando una cantidad arbitraria de Token1 y Token2 
+para que ese par exista y sea útil.
+Una vez creado el par, cualquier número de usuarios puede agregar liquidez, pero todos deben agregarlo de manera equilibrada 
+al precio de Token1 en comparación con Token2 en ese momento.
+Cuando los usuarios o los contratos agregan liquidez a un LP, reciben lo que se llama **_LP-Tokens_**.
+
+
+<BR/>
+#### LP-Tokens
+Los LP-Tokens pueden tener diferentes nombres (en PancakeSwap se llaman CAKE-LP) pero todos tienen el mismo propósito.
+El LP-Token es una especie de título que certifica que la cuenta que recibió los LP-Tokens posee esa parte de la liquidez y 
+puede retirarla en cualquier momento simplemente "devolviendo" los tokens LP.
+Si se elimina suficiente liquidez, el par de tokens se vuelve intransferible y las personas que poseen los objetos no pueden 
+intercambiarlos en esa plataforma. Esto se conoce comúnmente como (rug pull) **_tirar de la alfombra_**.
+Por eso es importante que cualquier nuevo objeto digital que sea creado ofrezca al menos algún período de "Liquidez Estacionada".
+Cuando un token indica que su liquidez está "estacionada", significa que los tokens LP se mantienen en un mecanismo de bloqueo 
+de tiempo en el que no se pueden utilizar para retirar la liquidez durante un período de tiempo determinado.
+También existe la alternativa de “renunciar” a los tokens LP que estacionan efectivamente la liquidez afectada para siempre.
+HABEO estaciona para siempre su liquidez al renunciar a ella. La liquidez inicial proporcionada al final de la preventa y las 
+posteriores adiciones a la liquidez que el contrato genera en el tiempo a través de **_LP-Automático_** se renuncian mediante la quema 
+del CAKE-LP recibido por el contrato.
+
+<BR/>
+#### Tirar de la alfombra (Rug Pull)
+Esta es una práctica fraudulenta que es muy común en los nuevos proyectos de objetos digitales.
+El propietario del token proporciona muy poca liquidez inicial y permite el intercambio del token.
+Todos los participantes iniciales del proyecto comienzan a adquirir el token usando objetos de gran valor (por ejemplo, BNB) 
+aceptados por el intercambio como un par del token recién creado.
+Esta repentina afluencia de objetos valiosos crea un desequilibrio que hace que el valor del nuevo objeto se dispare 
+repentinamente, lo que a su vez hace que otras personas quieran lanzarse a la participación, acelerando aún más la acción 
+del precio.
+Una vez que los estafadores sienten que el botín es bueno, tienen dos vías principales para terminar su estafa:
+* Usan sus tokens LP para canjear su liquidez inicial que ahora está muy desequilibrada hacia muy pocos "tokens nuevos" y muchos 
+objetos de gran valor (por ejemplo, BNB).
+* Se deshacen de una gran cantidad de su token cambiándolo por BNB, dejando muy poca liquidez para que el resto del mundo opere.
+
+
+<BR/>
+#### Impuestos (Taxes)
+Ciertas transacciones con tokens en los contratos inteligentes están sujetas a impuestos, lo que significa que el contrato 
+inteligente retiene un porcentaje de la cantidad de tokens que se envían.
+Hay varios usos diferentes que se le dan a estos impuestos.
+La mayoría de los contratos implementan una combinación de: **_reflexión_**, **_LP automático_**, **_quema de tokens_** y 
+**_tarifas del equipo de desarrollo_**.
+HABEO tiene una estructura impositiva muy innovadora que favorece a los usuarios y poseedores de tokens a largo plazo y limita 
+a quienes quieren ganar ventaja diariamente.
+
+
+<BR/>
+#### Reflexión (Reflections)
+Es un método mediante el cual los contratos inteligentes proporcionan una especie de dividendo a las billeteras que contienen 
+sus tokens.
+Básicamente, algunas de las transacciones con los tokens están gravadas y parte de esos impuestos se distribuyen de manera 
+uniforme y proporcional entre los usuarios que tienen cualquier cantidad de tokens del contrato. De esta manera, los usuarios 
+que tienen el objeto ven crecer sus saldos con solo tener sus tokens.
+HABEO implementa una estrategia de reflexión muy agresiva.
+
+
+<BR/>
+#### LP automático (Auto-LP)
+Este es un método por el cual los contratos agregan continuamente liquidez (par de tokens) al LP con el que están operando.
+Esto es útil para permitir que un mayor número de transacciones tenga éxito, asegurando que el LP siempre tenga Token1 y Token2 
+disponibles para operar.
+HABEO agrega liquidez continuamente.
+
+
+<BR/>
+#### Quema de tokens (Token Burning)
+Quemar tokens significa que los contratos (o usuarios) envían voluntariamente tokens a una billetera inaccesible 
+(generalmente la billetera con dirección 0x00 ..) para que esos tokens se eliminen de la circulación de forma permanente.
+Esto crea una situación en la que cada vez hay menos tokens disponibles en el mercado, lo que genera presión en el mercado y, 
+debido al resultado del desequilibrio de oferta y demanda, aumenta el valor del token.
+Esto es comparable a tener 5 monedas raras (digamos, veinticinco centavos de dólar) valoradas en $1.000 cada una y arrojar una 
+de repente al horno. Ahora solo quedan 4 monedas, por lo que el precio de cada una de las restantes aumentará porque su rareza 
+ha aumentado.
+HABEO quemó el 50% de los tokens disponibles justo al cierre de la preventa y las quemará continuamente hasta que el suministro 
+se convierta en un 2,5% de la cantidad original.
+
+
+<BR/>
+#### Tarifas del equipo de desarrollo (Dev-Team fees)
+Estas son tarifas que algunos contratos implementan para convertirse en una especie de pago al equipo de desarrollo que creó 
+el contrato.
+HABEO no tiene tarifas de Dev-Team. Pero acepta donaciones.
+
+
+<BR/>
+#### Puentes (Bridges)
+Los puentes son contratos inteligentes que permiten usar tokens que viven en una cadena de bloques en una cadena de bloques 
+diferente.
+La forma en que funcionan es que reciben el token original en su blockchain, lo estacionan y acuñan un número equivalente de 
+tokens “envueltos” en el otro blockchain.
+De esta manera, los usuarios ahora pueden usar sus tokens recién empaquetados en la nueva cadena de bloques para intercambiarlos 
+por objetos que viven en ella.
+Cuando los usuarios quieren mover los tokens a su blockchain original, simplemente los envían al contrato, el contrato quema los 
+tokens envueltos y libera los tokens originales en su blockchain original.
+
+
+</xmp>
+
+<script src="https://strapdownjs.com/v/0.2/strapdown.js"></script>
+</html>
